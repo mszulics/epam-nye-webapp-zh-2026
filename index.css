@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    font-size: 10px;
+}
+
+#employee-container {
+    margin: 1.5rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+}
+
+.employee-card {
+    display: flex;
+    gap: 0.3rem;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    padding: 0.7rem;
+    background: white;
+    width: 300px;
+}
+
+.employee-pic {
+    width: 32px;
+    height: 32px;
+}
+
+.employee-name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: black;
+}
+
+.employee-role {
+    font-size: 1rem;
+    color: black;
+}
+
+
